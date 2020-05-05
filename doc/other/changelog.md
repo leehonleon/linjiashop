@@ -1,12 +1,35 @@
 # Change log
-
 ## latest
+
+### Issues
+- echarts随着窗口缩放自适应
+### Fixes
+- 分页查询bug
+- 升级webpack导致的组件无法加载的问题
+- 定日日志任务异常日志没有正常显示
+- 更新缓存的时候连带更新常量工具类中使用的本地(TimeCacheMap)缓存
+- 编辑商品规格信息的时候允许规格重复的问题
+- 商品类别中维护商品规格属性名的时候可以重复的问题
+## v0.5
+[gitee](https://gitee.com/microapp/linjiashop/releases/v0.5) [github](https://github.com/microapp-store/linjiashop/releases/tag/v0.5)
 ### Issues
 - 对接微信-获取微信用户信息
 - 重构日志记录方式（直接使用实体类的comment注释代替自定义AbstractDictMap子类的方式来描述更改的字段信息）
+- H5端完成微信支付的对接
+- 用户下单的时候判断库存避免超卖
+- mobile端针对后台的500错误使用toast提示统一显示处理
 ### Fixes
+- 【后台管理】商品编辑界面上传的图片无法显示
+- 【后台管理】新建立的角色配置给用户后无法登录
 - 后台管理(admin-api)和用户端(mobile-api)参数由于缓存无法同步的问题 
 - 【后台管理】业务日志和登录日志创建日期不显示的问题
+- 【后台管理】不配置菜单权限时登录管理员无法获取并生成左侧菜单树
+- BaseEntity使用hibernate的@CreationTimestamp和@UpdateTimestamp代替spring的@CreatedDate和@LastModifiedDate
+- 【后台管理】商品更新的时候从多规格更改位单规格的时候逻辑错误
+- 对下单的时候库存做事务管理和加锁处理，以避免超卖问题
+- 定时任务执行异常日志没有正常显示
+- 静态界面段配置问题导致无法跨域
+
 
 ## v0.4
 [gitee](https://gitee.com/microapp/linjiashop/releases/v0.4) [github](https://github.com/microapp-store/linjiashop/releases/tag/v0.4)

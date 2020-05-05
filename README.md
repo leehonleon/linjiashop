@@ -15,7 +15,10 @@
 - linjiashop 包含了商城的后台管理系统,手机h5，小程序版本
 - linjiashop 包含了app版本（基于flutter) 仓库地址[gitee](https://gitee.com/microapp/linjiashop-flutter),[github](https://github.com/microapp-store/linjiashop-flutter) 
  
-
+## 演示
+- 手机版本：[http://linjiashop.microapp.store](http://linjiashop.microapp.store)
+- 后台管理：[http://linjiashop-admin.microapp.store](http://linjiashop-admin.microapp.store) 请不要随意删除测试数据，谢谢（演示环境为避免误删数据，没有开放全部权限）
+- [开发教程视频](http://microapp.gitee.io/linjiashop/other/video.html)
 ## 功能模块
 linjiashop包含了后台管理功能和手机端商城业务功能
 - 基础模块
@@ -75,9 +78,6 @@ _商品素材取自小米商城_
 
 ### 后台管理
 ![后台管理](doc/img/admin.gif)
-## 演示
-- 手机版本：[http://linjiashop.microapp.store](http://linjiashop.microapp.store)
-- 后台管理：[http://linjiashop-admin.microapp.store](http://linjiashop-admin.microapp.store) 请不要随意删除测试数据，谢谢（演示环境为避免误删数据，没有开放全部权限）
 
 ## 技术选型
 - 核心框架：Spring Boot
@@ -135,16 +135,18 @@ _商品素材取自小米商城_
     - 进入linjiashop-wxapp目录
         - 运行  npm install --registry=https://registry.npm.taobao.org
         - 运行npm run dev
-        - 启动微信开发工具打开linjiashop-wxapp/dist/wx 目录即可预览小程序
+        - 启动微信开发工具导入linjiashop-wxapp/dist/wx 目录即可预览小程序
  
 ## 技术交流
 - 关注公众号：嗨客帝国，点击对应的项目菜单进群交流。
+
 ![公众号二维码](doc/img/haike.jpg)
 
 ## 在线文档
 - 项目文档：[http://microapp.gitee.io/linjiashop](http://microapp.gitee.io/linjiashop/)
+- [商业支持](http://microapp.gitee.io/linjiashop/other/xiaomiquan.html)
 - 该项目克隆并扩展自[web-flash](https://github.com/enilu/web-flash),所以开发的时候多看看web-flash的[在线文档](http://enilu.gitee.io/web-flash)
 - 该项目手机端linjiashop-mobile使用有赞Vant组件库，开发过程可以参考Vant的[在线文档](https://youzan.github.io/vant/#/zh-CN/intro)
 - 该项目微信小程序使用mpvue+vant-weapp，开发过程请参考相关文档：[mpvue文档](http://mpvue.com/),[vant-weapp文档](https://youzan.github.io/vant-weapp/#/intro)
-- 该项目的业务功能参考[litemall](https://github.com/linlinjava/litemall)，感谢[linlinjava](https://github.com/linlinjava)
- 
+- 该项目的业务功能和部分功能代码参考复用了[litemall](https://github.com/linlinjava/litemall)，感谢[linlinjava](https://github.com/linlinjava)
+- [视频教程](http://microapp.gitee.io/linjiashop/other/video.html)
